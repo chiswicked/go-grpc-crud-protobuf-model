@@ -1,0 +1,10 @@
+language: go
+
+go:
+  - "1.11.2"
+
+services:
+  - docker
+
+install:
+  - make ci-docker-build
