@@ -6,5 +6,5 @@ go:
 services:
   - docker
 
-install:
+script:
   - make ci-docker-build
