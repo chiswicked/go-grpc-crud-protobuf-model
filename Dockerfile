@@ -5,4 +5,4 @@ RUN apk update && apk add protobuf protobuf-dev make git
 ADD Makefile .
 ADD *.proto .
 
-RUN make
+ENTRYPOINT ["make"]
